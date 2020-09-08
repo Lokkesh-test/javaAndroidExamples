@@ -1,0 +1,47 @@
+
+Behaviour driven development -- BDD_______
+>> CUCUmber  is  a BDD framwork tool 
+>> CUCUmber is language independent 
+      Java. Phython, ruby, C#
+
+>> Create test cases easily by using step 
+     description(Simple Text language) (Gherkin)
+
+>>Unknown person such tech and non tech person 
+    and managers and stackholder
+Approaches :--- 
+GIven >>>Some give context ...Precondition 
+ When>>> Some Action is performed......Actions
+ But>>>> Conjuction of these GIven / When / Then Statement
+ Then >>>>> Particular outcome/consequence after the above step (Results).
+
+Reusability of step description in diff scenarios
+
+Parameter to pass we use Example 
+Feature file    .feature 
+Step description/definition
+
+Junit >>> Open Source >>> its for Java programming 
+            language 
+>> GUI and test & write source code quick and easily
+>> able to build test suite to measure progress of the 
+      status while running and 
+>> Detect unintended/unexpected side effort
+>> Run set of test scenarios and show in red and  
+      green bar report (HTML/JSON)
+      Index.html
+      cucumber.jason
+>> So CUCUmber @@ Normal statement and such 
+     statemnet will smooth/timely by JUNIT
+ >>>> JUNIT Runner class
+
+Wait Utility for Ajax Wait Class
+
+Hooks Annotation
+@Before 
+@After
+@Web
+
+@RunWith(Cucumber.class)
+@CucumberOptions(<dependency>
+        features = {"src/test/resource"}
